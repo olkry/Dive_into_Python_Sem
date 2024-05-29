@@ -3,17 +3,17 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\result.csv">
+        <entry key="\seminar_08\task_03\csv_users.csv">
           <value>
             <Attribute>
               <option name="separator" value="&#9;" />
             </Attribute>
           </value>
         </entry>
-        <entry key="\seminar_08\task_03\csv_users.csv">
+        <entry key="\seminar_09_DZ\task01\input_data.csv">
           <value>
             <Attribute>
-              <option name="separator" value="&#9;" />
+              <option name="separator" value=";" />
             </Attribute>
           </value>
         </entry>
