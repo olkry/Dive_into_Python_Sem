@@ -56,11 +56,10 @@ def main(args):
         kwargs = {}
         for item in args.params:
             key, value = item.split('=')
-            # Попытка безопасно интерпретировать значения
             try:
                 value = ast.literal_eval(value)
             except (ValueError, SyntaxError):
-                pass  # Если не удается интерпретировать, оставить как строку
+                pass
             kwargs[key] = value
         logging.info(f"Обработка данных введенных с консоли: {kwargs}")
         params = key_params(**kwargs)
